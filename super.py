@@ -4,7 +4,7 @@ home = input('Кто играет дома?: ')
 visitor = input('Кто играет в гостях?: ')
 result = []
 
-for i in range(10):
+for i in range(100):
     preres = random.randint(0, 2)
     result.append(preres)
 
